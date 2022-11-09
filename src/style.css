@@ -1,0 +1,117 @@
+body {
+    background-image: url(./background-image.jpg);
+    background-position: center 20%; 
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 0;
+    margin: 0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+#content {
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#header {
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+    height: 10vh;
+    background-image: linear-gradient(180deg, rgba(165, 165, 165, 0.8), rgba(0, 0, 0, 0.2));
+    display: flex;
+    color: rgba(255, 255, 255, 0.9);
+    align-items: center;
+    justify-content: space-around;
+    border-bottom: 1px solid white;
+}
+
+ul {
+    display: flex;
+    width: 30%;
+    height: 100%;
+    align-items: center;
+    justify-content: space-around;
+}
+
+li {
+    list-style: none;
+    font-size: 1.5rem; 
+    cursor: pointer;
+}
+
+li:hover {
+    border-bottom: 2px solid rgba(255, 255, 255, 0.9);
+}
+
+#info {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    margin-top: 15%;
+}
+
+#text {
+    padding: 20px;
+    margin-top: 80px;
+    width: 500px;
+    background-image: linear-gradient(180deg, rgba(165, 165, 165, 0.8), rgba(0, 0, 0, 0.2));
+    font-size: 1.2rem;
+    border-radius: 10px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border: 1px solid white;
+}
+
+#info h3 {
+    font-size: 100px;
+    -webkit-text-stroke: 1px white;
+    background: linear-gradient(180deg, rgba(165, 165, 165, 0.8), rgba(0, 0, 0, 0.8));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin: 0;
+}
+
+#text button {
+    width: 100%;
+    height: 40px;
+    border-radius: 10px;
+    font-size: 1.3rem;
+    cursor: pointer;
+    box-shadow: none;
+    background-color: rgba(255, 255, 255, 0.9);
+}
+
+button:hover {
+    border: 2px solid crimson;
+    color: crimson;
+}
+
+#logo {
+    display: flex;
+    align-items: center;
+    width: 40%;
+    font-size: 1.5rem;
+}
+
+#logo img {
+    width: 75px;
+    height: 75px;
+    padding: 20px;
+    filter: invert(100%) sepia(25%) saturate(0%) hue-rotate(251deg) brightness(112%) contrast(101%);
+}
