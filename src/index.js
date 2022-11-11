@@ -2,6 +2,7 @@ import './style.css';
 import { createHeader, resetPage } from './website';
 import { createHome } from './home';
 import { createMenu } from './menu';
+import { createContact } from './contact';
 
 const content = document.getElementById("content");
 content.appendChild(createHeader());
@@ -19,4 +20,9 @@ homeLink.addEventListener('click', () => {
 menuLink.addEventListener('click', () => {
     resetPage();
     content.appendChild(createMenu());
+});
+
+contactLink.addEventListener('click', () => {
+    resetPage();
+    content.appendChild(createContact());
 });
